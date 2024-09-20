@@ -31,9 +31,9 @@ const App = () => {
         <Navbar setShowLogin={setShowLogin} />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/order" element={<PlaceOrder />} />
+          <Route path="/Quickbite/" element={<Home />} />
+          <Route path="/Quickbite/cart" element={<Cart />} />
+          <Route path="/Quickbite/order" element={<PlaceOrder />} />
         </Routes>
       </div>
 
