@@ -11,13 +11,13 @@ const Navbar = ({ setShowLogin }) => {
   const { getTotalCartAmount } = useContext(StoreContext);
   return (
     <div className="navbar">
-      <Link to="/">
+      <Link to="/Quickbite/">
         <img src={assets.logo1} alt="Logo" className="logo" />
       </Link>
 
       <ul className="navbar-menu">
         <Link
-          to={"/"}
+          to={"/Quickbite/"}
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
@@ -54,7 +54,7 @@ const Navbar = ({ setShowLogin }) => {
           className="search-icon"
         />
         <div className="navbar-search-icon">
-          <Link to="/cart">
+          <Link to="/Quickbite/cart/">
             <FaShoppingCart
               size={24}
               style={{

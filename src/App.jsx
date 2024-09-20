@@ -32,12 +32,12 @@ const App = () => {
         <ScrollToTop />
         <Routes>
           <Route path="/Quickbite/" element={<Home />} />
-          <Route path="/Quickbite/cart" element={<Cart />} />
-          <Route path="/Quickbite/order" element={<PlaceOrder />} />
+          <Route path="/Quickbite/cart/" element={<Cart />} />
+          <Route path="/Quickbite/order/" element={<PlaceOrder />} />
         </Routes>
       </div>
 
-      {location.pathname !== "/cart" && <AppDownload />}
+      {location.pathname !== "/Quickbite/cart/" && <AppDownload />}
       <Footer />
     </>
   );
