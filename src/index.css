@@ -47,23 +47,6 @@ a {
   border-radius: 12px;
 }
 
-/*Preloader*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-  background-color: #ffff !important;
-  background-image: url(./src/assets/Pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#preloader-none {
-  opacity: 0;
-}
 #no-scroll {
   overflow: hidden;
   height: 100vh;
