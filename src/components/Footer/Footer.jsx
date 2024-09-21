@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <Link to={"/"}>
+          <Link to={"/Quickbite/"}>
             <img src={assets.logo1} alt="Logo" className="logo" />
           </Link>
 

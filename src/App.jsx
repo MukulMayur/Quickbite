@@ -37,7 +37,8 @@ const App = () => {
         </Routes>
       </div>
 
-      {location.pathname !== "/Quickbite/cart/" && <AppDownload />}
+      {location.pathname !== "/Quickbite/cart/" &&
+        location.pathname !== "/Quickbite/order/" && <AppDownload />}
       <Footer />
     </>
   );
