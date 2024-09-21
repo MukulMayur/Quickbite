@@ -31,3 +31,32 @@
   width: 100%;
   width: max(40%, 500px);
 }
+
+@media (max-width: 750px) {
+  .place-order {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: start;
+    gap: 50px;
+  }
+  .place-order-left {
+    width: 100%;
+    width: max(30%, 320px);
+  }
+  .place-order-left input {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .place-order-left .multiple-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .place-order-right {
+    width: 100%;
+    width: max(30%, 320px);
+  }
+}

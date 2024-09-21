@@ -81,23 +81,27 @@
 }
 
 @media (max-width: 750px) {
+  .navbar {
+    margin-top: 10px;
+  }
   .navbar-menu {
     display: none;
   }
-  .logo {
-    width: 100px;
+  .navbar .logo {
+    width: 120px !important;
   }
   .navbar button {
-    padding: 4px 16px;
+    padding: 5px 20px;
     border: 1.5px solid #da98f3;
     font-size: 14px;
+    white-space: nowrap;
   }
   .cart-icon {
     width: 18px;
   }
   .search-icon {
-    width: 20px;
-    margin-left: 10px;
+    width: 30px;
+    margin-left: 20px;
   }
 }
 

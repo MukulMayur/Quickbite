@@ -76,6 +76,9 @@
   }
 }
 @media (max-width: 750px) {
+  .header {
+    height: 50vw;
+  }
   .header-contents {
     max-width: 65%;
     bottom: 25%;
